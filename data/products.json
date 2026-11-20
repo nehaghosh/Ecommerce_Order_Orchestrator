@@ -1,0 +1,48 @@
+{
+  "metadata": {
+    "description": "Sample demonstration product catalog for CSE476 E-Commerce Order Fulfilment Orchestrator (not real store data).",
+    "currency": "INR"
+  },
+  "products": [
+    {
+      "product_id": "P101",
+      "name": "Wireless Headphones",
+      "price": 2000.0,
+      "stock": 15,
+      "category": "Audio",
+      "substitute_id": "P103"
+    },
+    {
+      "product_id": "P102",
+      "name": "Smart Watch",
+      "price": 3500.0,
+      "stock": 8,
+      "category": "Wearables",
+      "substitute_id": "P101"
+    },
+    {
+      "product_id": "P103",
+      "name": "Bluetooth Speaker",
+      "price": 1500.0,
+      "stock": 3,
+      "category": "Audio",
+      "substitute_id": "P101"
+    },
+    {
+      "product_id": "P104",
+      "name": "Power Bank",
+      "price": 1000.0,
+      "stock": 0,
+      "category": "Accessories",
+      "substitute_id": "P105"
+    },
+    {
+      "product_id": "P105",
+      "name": "Keyboard",
+      "price": 1200.0,
+      "stock": 12,
+      "category": "Accessories",
+      "substitute_id": "P103"
+    }
+  ]
+}
